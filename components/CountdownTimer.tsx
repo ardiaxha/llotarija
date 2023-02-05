@@ -18,7 +18,7 @@ function CountdownTimer() {
     'expiration'
   )
 
-  const renderer = ({ days, hours, minutes, seconds, completed }) => {
+  const renderer = ({ days, hours, minutes, seconds, completed }: any) => {
     if (completed) {
       return (
         <div className="text-white text-xl text-center">
