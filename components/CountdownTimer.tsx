@@ -18,7 +18,7 @@ function CountdownTimer() {
     'expiration'
   )
 
-  const renderer = ({ days, hours, minutes, seconds, completed }: Props) => {
+  const renderer = ({ days, hours, minutes, seconds, completed }) => {
     if (completed) {
       return (
         <div className="text-white text-xl text-center">
